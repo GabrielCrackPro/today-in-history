@@ -1,0 +1,22 @@
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.hide {
+  display: none;
+}
+@keyframes move {
+  from {
+    transition: all 0.3s ease-in-out;
+  }
+  to {
+    transition: all 1s ease-in-out;
+  }
+}
+#events,
+#birth,
+#death {
+  animation: move 1s;
+}
+p a {
+  font-weight: bold;
+}
